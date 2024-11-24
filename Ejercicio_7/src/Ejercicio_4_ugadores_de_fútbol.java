@@ -21,11 +21,9 @@ import java.util.Scanner;
 public class Ejercicio_4_ugadores_de_fútbol {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
-        String nombre;
-        String posicion;
+        String nombre, posicion, continuar;;
         int edad;
         double estatura;
-        String continuar;
         String reporte = ""; // Cadena para acumular el reporte
         do {
             System.out.println("Ingrese el nombre del jugador:");
